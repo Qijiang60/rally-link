@@ -2,3 +2,5 @@ Integration Guide for GitHub to Rally
 
 https://help.rallydev.com/github-installation-user-guide
 
+Changes to link to Rally DE1
+
