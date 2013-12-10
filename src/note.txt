@@ -1,0 +1,4 @@
+Integration Guide for GitHub to Rally
+
+https://help.rallydev.com/github-installation-user-guide
+
