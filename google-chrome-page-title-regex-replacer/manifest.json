@@ -1,0 +1,25 @@
+{
+  "name": "Get pages source",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Get pages source from a popup",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs", "<all_urls>"]
+}
+
+/*{
+  "name": "Title Regex Replacer",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Allows for site titles to be changed with regular expressions",
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com"],
+      "js": ["title_replace.js"],
+      "run_at": "document_end"
+    }
+  ]
+}*/
