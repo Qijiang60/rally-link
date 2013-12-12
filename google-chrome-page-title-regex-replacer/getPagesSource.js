@@ -2,6 +2,13 @@
 // Demo: var serialized_html = DOMtoString(document);
 
 function DOMtoString(document_root) {
+
+	var replaced = $('.commit-title')
+		.html()
+		.replace(/(US|DE|TA)([0-9]+)/g, '<a href="https://rally1.rallydev.com/slm/rally.sp?#/search?keywords=$1$2">$1$2</a>');
+	$('.commit-title').html();
+	return '';
+
 	var pattern = /(<title>.*)(US[0-9]+)(.*<\/title>)/g;
 
     var html = '',
