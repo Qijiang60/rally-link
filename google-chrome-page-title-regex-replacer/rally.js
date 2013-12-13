@@ -1,5 +1,5 @@
 var rallyUrl = 'https://rally1.rallydev.com/slm/rally.sp?#/search?keywords=';
-var els = document.querySelectorAll('.commit-title, .message');
+var els = document.querySelectorAll('.commit-title .message, .message .message');
 for (var i in els)
 {
 	if (els[i] && els[i].innerHTML) 
