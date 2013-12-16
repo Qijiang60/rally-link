@@ -1,12 +1,14 @@
 {
-  "name": "Rally ID link",
+  "name": "Rally Story Integration",
   "description": "https://github.com/canojim/hackathon",
-  "version": "1",
-  "manifest_version": 2,
+  "version": "1.0.2",
+  "manifest_version": 3,
   "content_scripts": [
     {
       "matches": [
+        "https://*.github.com/*",
         "https://github.paypal.com/*",
+        "https://github.scm.corp.ebay.com/*",
         "https://github.com/*"
       ],
       "js": [
