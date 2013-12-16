@@ -1,4 +1,4 @@
-hackathon
-=========
+Rally in Github Chrome Extension
+================================
 
-hackathon
+To install, download the [chrome extension](https://github.com/chernjie/rally-link/raw/master/rally-link.crx)
