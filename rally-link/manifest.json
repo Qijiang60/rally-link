@@ -1,8 +1,8 @@
 {
   "name": "Rally Story Integration",
-  "description": "https://github.com/canojim/hackathon",
+  "description": "https://github.com/chernjie/hackathon",
   "version": "1.0.2",
-  "manifest_version": 3,
+  "manifest_version": 2,
   "content_scripts": [
     {
       "matches": [
